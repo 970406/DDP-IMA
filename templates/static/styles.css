@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+/*Header section*/
+
+header{
+	background: radial-gradient(red, black);
+	text-align: center;
+	padding-top: 61px;
+	padding-bottom: 61px;
+}
+
+header h1{
+	color:  white;
+	font-size: 70px;
+	text-shadow: 2px 0 black, 0 2px black, 5px 0 black, 0 -1px black;
+}
+
+header img{
+	border-radius: 150px 50px 130px 50px;
+	width: 300px;
+	border: 20px solid white;
+}
+
+
+
+/*Main section*/
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	max-width: 80%;
+}
+
+main h2{
+	font-size: 30px;
+	margin: 40px 0 10px;
+}
+
+main a{
+	color: black;
+}
+
+main a:hover{
+	background-color: black;
+	color: white;
+}
+
+p.caption{
+	margin-top: 0;
+	color:  grey;
+	font-style: italic;
+	font-size: 20px;
+}
+
+table {
+	background: whitesmoke;
+	text-align: center;
+	color:  indianred;
+	font-size: 20px;
+	border-collapse:collapse;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td
+{
+    padding:10px;
+}
+
+table,th, td
+{
+    border: 2px solid black;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+
+table 
+{
+    width:90%;
+}
+
+th
+{
+    height:50px;
+}
+
+/*Footer section*/
+
+footer{
+	background: radial-gradient(red, black);
+	text-align: center;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+	color:  white;
+	font-size: 31px;
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	background-color: white;
+	color: black;
+}
